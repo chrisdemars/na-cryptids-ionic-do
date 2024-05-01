@@ -1,8 +1,6 @@
-import React from 'react';
 import { IonCol, IonGrid, IonRow, setupIonicReact } from '@ionic/react';
 import Title from './components/Title/Title';
 import CryptidCard from './components/CryptidCard/CryptidCard';
-import data from './data.json';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -19,26 +17,23 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
+import data from './data.json';
 
 setupIonicReact();
 
-
-const App: React.FC = () => {
-
-  return (
-    <>
-      <Title />
-      <IonGrid fixed={true}>
-        <IonRow>
-          {data.map((cryptid) => (
-            <IonCol key={cryptid.name}>
-              <CryptidCard cryptid={{ image: '', name: '', description: '', firstSeen: '', location: '' }} />
-            </IonCol>
-          ))}
-        </IonRow>
-      </IonGrid>
-    </>
-  )
-}
+const App: React.FC = () => (
+  <>
+    <Title />
+    <IonGrid fixed={true}>
+      <IonRow>
+        {data.map((cryptid, index) => (
+          <IonCol>
+            <CryptidCard key={index} {...cryptid} />
+          </IonCol>
+        ))}
+      </IonRow>
+    </IonGrid>
+  </>
+);
 
 export default App
