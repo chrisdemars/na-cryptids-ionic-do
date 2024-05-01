@@ -1,20 +1,20 @@
 [
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bigfoot.jpg/220px-Bigfoot.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Patterson_Gimlin_Bigfoot.jpg",
     "name": "Bigfoot",
     "description": "Bigfoot is a large, hairy, ape-like creature that is said to inhabit the forests of North America. It is also known as Sasquatch.",
     "firstSeen": "1920s",
     "location": "Pacific Northwest"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Chupacabra.jpg/220px-Chupacabra.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chupacabra_%28artist%27s_rendition%29.jpg",
     "name": "Chupacabra",
     "description": "The Chupacabra is a creature that is said to attack and drink the blood of livestock, especially goats. It is often described as a reptilian creature with spikes along its back.",
     "firstSeen": "1990s",
     "location": "Puerto Rico"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mothman_statue.jpg/220px-Mothman_statue.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mothman_Statue.jpg",
     "name": "Mothman",
     "description": "The Mothman is a creature that is said to resemble a large, winged humanoid with glowing red eyes. It is often associated with disaster and tragedy.",
     "firstSeen": "1960s",

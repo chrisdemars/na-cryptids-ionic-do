@@ -1,4 +1,4 @@
-import { IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonImg, IonItem, IonLabel, IonList } from '@ionic/react';
+import { IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonLabel, IonList } from '@ionic/react';
 
 interface Cryptid {
   image: string;
@@ -11,7 +11,7 @@ interface Cryptid {
 const CryptidCard: React.FC<Cryptid> = ({ image, name, description, firstSeen, location }) => (
   <>
     <IonCard>
-      <IonImg src={image} alt={name} />
+      <img src={image} alt={name} />
       <IonCardHeader>
         <IonCardTitle>{name}</IonCardTitle>
         <IonCardSubtitle>{location}</IonCardSubtitle>
