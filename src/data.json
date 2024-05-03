@@ -21,14 +21,14 @@
     "location": "West Virginia"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Jersey_Devil.jpg/220px-Jersey_Devil.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Jersey_Devil.svg",
     "name": "Jersey Devil",
     "description": "The Jersey Devil is a creature that is said to resemble a kangaroo-like creature with bat wings, horns, and a forked tail. It is often associated with the Pine Barrens of New Jersey.",
     "firstSeen": "1735",
     "location": "New Jersey"
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wendigo.jpg/220px-Wendigo.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Wendigo_Wintery_Forest.jpg",
     "name": "Wendigo",
     "description": "The Wendigo is a creature from Algonquian folklore that is said to be a malevolent spirit that possesses humans and drives them to cannibalism. It is often associated with the forests of the Great Lakes region.",
     "firstSeen": "Unknown",

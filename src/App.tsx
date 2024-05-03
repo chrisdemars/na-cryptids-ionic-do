@@ -1,4 +1,4 @@
-import { IonCol, IonGrid, IonRow, setupIonicReact } from '@ionic/react';
+import { IonCol, IonGrid, IonRow, IonContent, setupIonicReact, IonApp, IonPage } from '@ionic/react';
 import Title from './components/Title/Title';
 import CryptidCard from './components/CryptidCard/CryptidCard';
 
@@ -22,18 +22,22 @@ import data from './data.json';
 setupIonicReact();
 
 const App: React.FC = () => (
-  <>
-    <Title />
-    <IonGrid fixed={true}>
-      <IonRow>
-        {data.map((cryptid, index) => (
-          <IonCol>
-            <CryptidCard key={index} {...cryptid} />
-          </IonCol>
-        ))}
-      </IonRow>
-    </IonGrid>
-  </>
+  <IonApp>
+    <IonPage>
+      <IonContent fullscreen={true} scrollEvents={true}>
+        <Title />
+        <IonGrid fixed={true}>
+          <IonRow>
+            {data.map((cryptid, index) => (
+              <IonCol>
+                <CryptidCard key={index} {...cryptid} />
+              </IonCol>
+            ))}
+          </IonRow>
+        </IonGrid>
+      </IonContent >
+    </IonPage >
+  </IonApp>
 );
 
 export default App
