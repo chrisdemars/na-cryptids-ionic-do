@@ -1,4 +1,4 @@
-import { IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonLabel, IonList, IonContent } from '@ionic/react';
+import { IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonLabel, IonList } from '@ionic/react';
 
 interface Cryptid {
   image: string;
