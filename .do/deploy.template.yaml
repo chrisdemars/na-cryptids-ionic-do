@@ -8,11 +8,10 @@
 #         repo_clone_url: https://github.com/chrisdemars/na-cryptids-ionic-do.git
 #       name: na-cryptids
 
-
-spec:
- name: na-cryptids
- static_sites:
- - git:
-     branch: main
-     repo_clone_url: https://github.com/chrisdemars/na-cryptids-ionic-do.git
-  name: na-cryptids
+# spec:
+#  name: na-cryptids
+#  static_sites:
+#  - git:
+#      branch: main
+#      repo_clone_url: https://github.com/chrisdemars/na-cryptids-ionic-do.git
+#   name: na-cryptids
