@@ -8,7 +8,7 @@
 
 .header-section {
   height: 25vh;
-  background: url('./assets/woods-bg.jpg') no-repeat center center/cover;
+  background: url('/woods-bg.jpg') no-repeat center center/cover;
   color: white;
   display: flex;
   justify-content: flex-start;
