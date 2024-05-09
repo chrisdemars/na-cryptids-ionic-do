@@ -5,6 +5,14 @@
   text-align: center;
 } */
 
+.header-section {
+  height: 25vh;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;

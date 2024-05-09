@@ -25,7 +25,9 @@ const App: React.FC = () => (
   <IonApp>
     <IonPage>
       <IonContent fullscreen={true} scrollEvents={true}>
-        <Title />
+        <header className="header-section">
+          <Title />
+        </header>
         <IonGrid fixed={true}>
           <IonRow>
             {data.map((cryptid, index) => (
